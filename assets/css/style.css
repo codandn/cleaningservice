@@ -96,6 +96,12 @@ footer {
     margin: 2rem 0;
 }
 
+.why-choose ul {
+    list-style: none;  /* Removes bullets */
+    padding-left: 0;   /* Removes default left padding */
+    margin-left: 0;    /* Removes default left margin */
+}
+
 /* Contact Page */
 .contact-info {
     margin: 2rem 0;
