@@ -1,5 +1,5 @@
 title: Aussie Clean Services
 email: contact@aussieclean.com
-baseurl: ""
-url: ""
+baseurl: "/cleaningservice"
+url: "https://codandn.github.io"
 markdown: kramdown
