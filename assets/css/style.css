@@ -71,3 +71,46 @@ footer {
     border-radius: 4px;
     margin-top: 1rem;
 }
+
+/* Services Page */
+.service-card {
+    background: white;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* About Page */
+.team-photo {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+.why-choose {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+/* Contact Page */
+.contact-info {
+    margin: 2rem 0;
+}
+
+.contact-item {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.map-placeholder {
+    height: 300px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
