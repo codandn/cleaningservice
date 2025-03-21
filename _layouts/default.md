@@ -4,15 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    {% include header.md %}
+    {% include header.html %}
     
     <main class="container">
         {{ content }}
     </main>
 
-    {% include footer.md %}
+    {% include footer.html %}
 </body>
 </html>
