@@ -3,3 +3,4 @@ email: contact@aussieclean.com
 baseurl: "/cleaningservice"
 url: "https://codandn.github.io"
 markdown: kramdown
+theme: null
