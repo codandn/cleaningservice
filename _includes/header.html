@@ -1,14 +1,15 @@
-<header>
-    <div class="header">
-       <!-- <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1> -->
-        <a href="{{ site.baseurl }}/" class="logo">
-            <img src="{{ site.baseurl }}/assets/images/logo.png" alt="{{ site.title }} Logo">
+<header class="site-header">
+    <div class="header-content">
+        <a href="/" class="logo">
+            <img src="/assets/images/logo.svg" alt="CleanPro Logo" width="150">
         </a>
-        <nav>
-            <a href="{{ site.baseurl }}/" {% if page.url == "/" %}class="active"{% endif %}>Home</a>
-            <a href="{{ site.baseurl }}/services/" {% if page.url == "/services/" %}class="active"{% endif %}>Services</a>
-            <a href="{{ site.baseurl }}/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a>
-            <a href="{{ site.baseurl }}/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
         </nav>
     </div>
 </header>
