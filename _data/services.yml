@@ -1,0 +1,11 @@
+- title: Home Cleaning
+  description: Complete home cleaning including kitchen, bathrooms, and living areas
+  icon: icons/home.svg
+
+- title: Office Cleaning
+  description: Professional office cleaning with eco-friendly products
+  icon: icons/office.svg
+
+- title: Deep Cleaning
+  description: Intensive cleaning for special occasions or seasonal cleaning
+  icon: icons/deep-clean.svg
