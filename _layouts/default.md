@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html lang="en-AU">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | CleanPro</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
     {% include header.html %}
-    
-    <main class="container">
+    <main>
         {{ content }}
     </main>
-
     {% include footer.html %}
 </body>
 </html>
