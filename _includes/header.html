@@ -1,14 +1,13 @@
 <header class="site-header">
-    <div class="header-content">
-        <a href="/" class="logo">
-            <img src="/assets/images/logo.svg" alt="CleanPro Logo" width="150">
+    <div class="container">
+        <a href="{{ '/' | relative_url }}" class="logo">
+            <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Aussie Clean Logo" width="150">
         </a>
         <nav class="main-nav">
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ 'services' | relative_url }}">Services</a></li>
+                <li><a href="{{ 'contact' | relative_url }}">Contact</a></li>
             </ul>
         </nav>
     </div>
