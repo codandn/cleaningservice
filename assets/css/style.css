@@ -84,3 +84,59 @@ body {
         padding: 4rem 0;
     }
 }
+
+
+/* Contact Page Styles */
+.contact-methods {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.contact-details h3 {
+    color: var(--primary);
+    margin: 1.5rem 0 1rem;
+}
+
+address {
+    font-style: normal;
+    line-height: 1.4;
+}
+
+.location-map img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.business-hours {
+    margin: 3rem 0;
+    padding: 2rem;
+    background: var(--light);
+    border-radius: 8px;
+}
+
+.business-hours table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.business-hours th,
+.business-hours td {
+    padding: 0.8rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+    .contact-methods {
+        grid-template-columns: 1fr;
+    }
+    
+    .location-map {
+        order: -1;
+    }
+}
