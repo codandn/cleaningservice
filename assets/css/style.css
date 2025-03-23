@@ -120,3 +120,9 @@ footer {
     justify-content: center;
     margin: 2rem 0;
 }
+
+.logo img {
+    height: 40px; /* Adjust based on your logo */
+    width: auto;
+    margin-right: 1rem;
+}
