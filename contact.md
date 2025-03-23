@@ -1,38 +1,25 @@
 ---
 layout: default
 title: Contact
-permalink: /contact/
 ---
 
 <section class="contact">
-    <h1>Get in Touch</h1>
-
-    <div class="contact-info">
-        <div class="contact-item">
-            📞 <strong>Phone:</strong> 1300 555 789
-        </div>
-        
-        <div class="contact-item">
-            📧 <strong>Email:</strong> {{ site.email }}
-        </div>
-        
-        <div class="contact-item">
-            🕒 <strong>Hours:</strong> Mon-Sat 7AM - 7PM
-        </div>
-    </div>
-
-    <div class="service-areas">
-        <h2>Service Areas</h2>
-        <ul>
-            <li>Sydney Metro</li>
-            <li>Melbourne Metro</li>
-            <li>Brisbane CBD</li>
-            <li>Perth Surrounds</li>
-        </ul>
-    </div>
-
-    <div class="map-placeholder">
-        <!-- Add Google Map embed later -->
-        <p>Map placeholder - Add Google Maps embed code here</p>
+    <div class="contact-content">
+        <h2>Get in Touch</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
     </div>
 </section>
