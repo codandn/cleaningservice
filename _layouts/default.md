@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | CleanPro</title>
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
     {% include header.html %}
-    <main>
+    
+    <main class="container">
         {{ content }}
     </main>
+
     {% include footer.html %}
 </body>
 </html>
