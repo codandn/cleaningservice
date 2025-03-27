@@ -4,3 +4,6 @@ baseurl: "/cleaningservice"
 url: "https://codandn.github.io"
 markdown: kramdown
 theme: null
+
+# Custom variables
+brand_color: "#2A9D8F"
