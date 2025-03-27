@@ -1,14 +1,10 @@
-<header class="site-header">
-    <div class="container">
-        <a href="{{ '/' | relative_url }}" class="logo">
-            <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Aussie Clean Logo" width="150">
-        </a>
-        <nav class="main-nav">
-            <ul>
-                <li><a href="{{ '/' | relative_url }}">Home</a></li>
-                <li><a href="{{ 'services' | relative_url }}">Services</a></li>
-                <li><a href="{{ 'contact' | relative_url }}">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+<header>
+    <nav class="nav-container">
+        <a href="{{ '/' | relative_url }}" class="logo">{{ site.title }}</a>
+        <ul class="nav-links">
+            {% for item in site.data.navigation %}
+            <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
 </header>
