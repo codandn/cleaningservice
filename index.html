@@ -110,7 +110,8 @@
 
         .services-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
+	    grid-template-columns: repeat(3, 1fr);
             gap: 2rem;
             margin-top: 2rem;
         }
@@ -203,6 +204,11 @@
 
 	/* Remove the existing mobile media query and replace with this: */
 @media (max-width: 768px) {
+
+	.services-grid {
+    grid-template-columns: 1fr;
+  }
+
     .nav-links {
         display: flex;
         overflow-x: auto;
@@ -260,21 +266,32 @@
         <div class="services-container">
             <h2 class="section-title">Our Services</h2>
             <div class="services-grid">
-                <div class="service-card">
+                 <div class="service-card">
                     <img src="https://img.icons8.com/ios-filled/100/2A9D8F/clean.png" alt="Home Cleaning">
-                    <h3>Home Cleaning</h3>
-                    <p>Complete residential cleaning service</p>
+                    <h3>School Cleaning</h3>
+                    <p>Safe and thorough cleaning for educational facilities</p>
                 </div>
                 <div class="service-card">
                     <img src="https://img.icons8.com/ios-filled/100/2A9D8F/office.png" alt="Office Cleaning">
                     <h3>Office Cleaning</h3>
-                    <p>Commercial cleaning solutions</p>
+                    <p>Professional commercial cleaning solutions</p>
                 </div>
                 <div class="service-card">
                     <img src="https://img.icons8.com/ios-filled/100/2A9D8F/broom.png" alt="Deep Cleaning">
-                    <h3>Deep Cleaning</h3>
-                    <p>Thorough intensive cleaning service</p>
+                    <h3>Medical Centre Cleaning</h3>
+                    <p>Specialist cleaning for healthcare environments</p>
                 </div>
+		 <div class="service-card">
+                    <img src="https://img.icons8.com/ios-filled/100/2A9D8F/broom.png" alt="Deep Cleaning">
+                    <h3>Childcare Cleaning</h3>
+                    <p>Child-safe cleaning for daycare centers</p>
+                </div>
+		 <div class="service-card">
+                    <img src="https://img.icons8.com/ios-filled/100/2A9D8F/broom.png" alt="Deep Cleaning">
+                    <h3>Fitness Facility Cleaning</h3>
+                    <p>Gym and fitness centre sanitation</p>
+                </div>
+
             </div>
         </div>
     </section>
